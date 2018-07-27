@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		535372B3210AB33B00D93624 /* PDFConvertersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372B2210AB33B00D93624 /* PDFConvertersTests.m */; };
+		535372BE210AB33C00D93624 /* PDFConvertersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372BD210AB33C00D93624 /* PDFConvertersUITests.m */; };
+		535372DF210AB60300D93624 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372CD210AB60200D93624 /* AppDelegate.m */; };
+		535372E0210AB60300D93624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535372D7210AB60200D93624 /* Assets.xcassets */; };
+		535372E1210AB60300D93624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535372D9210AB60300D93624 /* LaunchScreen.storyboard */; };
+		535372E2210AB60300D93624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535372DB210AB60300D93624 /* Main.storyboard */; };
+		535372E3210AB60300D93624 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372DD210AB60300D93624 /* main.m */; };
+		535372EB210AB69800D93624 /* HDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372EA210AB69800D93624 /* HDBaseViewController.m */; };
+		535372EE210AB6BB00D93624 /* HDBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372ED210AB6BB00D93624 /* HDBaseTableViewController.m */; };
+		535372F1210AB6C700D93624 /* HDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372F0210AB6C700D93624 /* HDBaseTableViewCell.m */; };
+		535372F5210AB71500D93624 /* HDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372F4210AB71500D93624 /* HDTabBarViewController.m */; };
+		535372FB210AC29600D93624 /* HDFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372FA210AC29600D93624 /* HDFilesViewController.m */; };
+		535372FE210AC29E00D93624 /* HDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535372FD210AC29E00D93624 /* HDMineViewController.m */; };
+		53537301210AC2AF00D93624 /* HDConvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53537300210AC2AF00D93624 /* HDConvertViewController.m */; };
+		53537308210B083000D93624 /* NSString+HDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 53537307210B083000D93624 /* NSString+HDUtil.m */; };
+		5353730B210B084000D93624 /* UIColor+HDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353730A210B084000D93624 /* UIColor+HDUtil.m */; };
+		5353730E210B087B00D93624 /* UITextField+HDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353730D210B087B00D93624 /* UITextField+HDUtil.m */; };
+		53537312210B0AEA00D93624 /* HDUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53537311210B0AEA00D93624 /* HDUserInfo.m */; };
+		53537318210B124800D93624 /* HDAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53537317210B124800D93624 /* HDAlertController.m */; };
+		5353731F210B13F100D93624 /* HDBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353731C210B13F000D93624 /* HDBaseApi.m */; };
+		53537320210B13F100D93624 /* HDBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353731E210B13F000D93624 /* HDBaseRequest.m */; };
+		DD1859C08EE556A5658B1A57 /* libPods-PDFConverters.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E118FDEA7F2539A900E3EED4 /* libPods-PDFConverters.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		535372AF210AB33B00D93624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5353728E210AB33A00D93624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53537295210AB33A00D93624;
+			remoteInfo = PDFConverters;
+		};
+		535372BA210AB33C00D93624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5353728E210AB33A00D93624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53537295210AB33A00D93624;
+			remoteInfo = PDFConverters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53537296210AB33A00D93624 /* PDFConverters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFConverters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		535372AE210AB33B00D93624 /* PDFConvertersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFConvertersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		535372B2210AB33B00D93624 /* PDFConvertersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFConvertersTests.m; sourceTree = "<group>"; };
+		535372B4210AB33C00D93624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		535372B9210AB33C00D93624 /* PDFConvertersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFConvertersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		535372BD210AB33C00D93624 /* PDFConvertersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFConvertersUITests.m; sourceTree = "<group>"; };
+		535372BF210AB33C00D93624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		535372CC210AB60200D93624 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		535372CD210AB60200D93624 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		535372D7210AB60200D93624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		535372DA210AB60300D93624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		535372DC210AB60300D93624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		535372DD210AB60300D93624 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		535372DE210AB60300D93624 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		535372E9210AB69800D93624 /* HDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDBaseViewController.h; sourceTree = "<group>"; };
+		535372EA210AB69800D93624 /* HDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDBaseViewController.m; sourceTree = "<group>"; };
+		535372EC210AB6BB00D93624 /* HDBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDBaseTableViewController.h; sourceTree = "<group>"; };
+		535372ED210AB6BB00D93624 /* HDBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDBaseTableViewController.m; sourceTree = "<group>"; };
+		535372EF210AB6C700D93624 /* HDBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDBaseTableViewCell.h; sourceTree = "<group>"; };
+		535372F0210AB6C700D93624 /* HDBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDBaseTableViewCell.m; sourceTree = "<group>"; };
+		535372F3210AB71500D93624 /* HDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTabBarViewController.h; sourceTree = "<group>"; };
+		535372F4210AB71500D93624 /* HDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTabBarViewController.m; sourceTree = "<group>"; };
+		535372F9210AC29600D93624 /* HDFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDFilesViewController.h; sourceTree = "<group>"; };
+		535372FA210AC29600D93624 /* HDFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDFilesViewController.m; sourceTree = "<group>"; };
+		535372FC210AC29E00D93624 /* HDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMineViewController.h; sourceTree = "<group>"; };
+		535372FD210AC29E00D93624 /* HDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMineViewController.m; sourceTree = "<group>"; };
+		535372FF210AC2AF00D93624 /* HDConvertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDConvertViewController.h; sourceTree = "<group>"; };
+		53537300210AC2AF00D93624 /* HDConvertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDConvertViewController.m; sourceTree = "<group>"; };
+		53537302210B055F00D93624 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		53537303210B073200D93624 /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		53537304210B073800D93624 /* Urls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Urls.h; sourceTree = "<group>"; };
+		53537305210B073E00D93624 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		53537306210B083000D93624 /* NSString+HDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HDUtil.h"; sourceTree = "<group>"; };
+		53537307210B083000D93624 /* NSString+HDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HDUtil.m"; sourceTree = "<group>"; };
+		53537309210B084000D93624 /* UIColor+HDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HDUtil.h"; sourceTree = "<group>"; };
+		5353730A210B084000D93624 /* UIColor+HDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HDUtil.m"; sourceTree = "<group>"; };
+		5353730C210B087B00D93624 /* UITextField+HDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+HDUtil.h"; sourceTree = "<group>"; };
+		5353730D210B087B00D93624 /* UITextField+HDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HDUtil.m"; sourceTree = "<group>"; };
+		53537310210B0AEA00D93624 /* HDUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDUserInfo.h; sourceTree = "<group>"; };
+		53537311210B0AEA00D93624 /* HDUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDUserInfo.m; sourceTree = "<group>"; };
+		53537315210B0C6100D93624 /* HDEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDEnum.h; sourceTree = "<group>"; };
+		53537316210B124800D93624 /* HDAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDAlertController.h; sourceTree = "<group>"; };
+		53537317210B124800D93624 /* HDAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDAlertController.m; sourceTree = "<group>"; };
+		5353731A210B137100D93624 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		5353731B210B13F000D93624 /* HDBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseRequest.h; sourceTree = "<group>"; };
+		5353731C210B13F000D93624 /* HDBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseApi.m; sourceTree = "<group>"; };
+		5353731D210B13F000D93624 /* HDBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseApi.h; sourceTree = "<group>"; };
+		5353731E210B13F000D93624 /* HDBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseRequest.m; sourceTree = "<group>"; };
+		BFB4A2B5B0C1722E7F4159DD /* Pods-PDFConverters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFConverters.release.xcconfig"; path = "Pods/Target Support Files/Pods-PDFConverters/Pods-PDFConverters.release.xcconfig"; sourceTree = "<group>"; };
+		E118FDEA7F2539A900E3EED4 /* libPods-PDFConverters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFConverters.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5767EA2304E0B04968F6237 /* Pods-PDFConverters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFConverters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PDFConverters/Pods-PDFConverters.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53537293210AB33A00D93624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1859C08EE556A5658B1A57 /* libPods-PDFConverters.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372AB210AB33B00D93624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372B6210AB33C00D93624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1970463BBCB5586270067E67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5767EA2304E0B04968F6237 /* Pods-PDFConverters.debug.xcconfig */,
+				BFB4A2B5B0C1722E7F4159DD /* Pods-PDFConverters.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5353728D210AB33A00D93624 = {
+			isa = PBXGroup;
+			children = (
+				53537298210AB33A00D93624 /* PDFConverters */,
+				535372B1210AB33B00D93624 /* PDFConvertersTests */,
+				535372BC210AB33C00D93624 /* PDFConvertersUITests */,
+				53537297210AB33A00D93624 /* Products */,
+				1970463BBCB5586270067E67 /* Pods */,
+				EAFF905966156184DF118FB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53537297210AB33A00D93624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53537296210AB33A00D93624 /* PDFConverters.app */,
+				535372AE210AB33B00D93624 /* PDFConvertersTests.xctest */,
+				535372B9210AB33C00D93624 /* PDFConvertersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53537298210AB33A00D93624 /* PDFConverters */ = {
+			isa = PBXGroup;
+			children = (
+				5353730F210B0AD000D93624 /* UserInfo */,
+				535372E5210AB64F00D93624 /* Base */,
+				535372CB210AB60200D93624 /* AppDelegate */,
+				535372CE210AB60200D93624 /* Expands */,
+				535372D5210AB60200D93624 /* Modules */,
+				535372D8210AB60300D93624 /* Others */,
+				535372D6210AB60200D93624 /* Resources */,
+				535372D1210AB60200D93624 /* Tools */,
+				535372D2210AB60200D93624 /* Vendors */,
+			);
+			path = PDFConverters;
+			sourceTree = "<group>";
+		};
+		535372B1210AB33B00D93624 /* PDFConvertersTests */ = {
+			isa = PBXGroup;
+			children = (
+				535372B2210AB33B00D93624 /* PDFConvertersTests.m */,
+				535372B4210AB33C00D93624 /* Info.plist */,
+			);
+			path = PDFConvertersTests;
+			sourceTree = "<group>";
+		};
+		535372BC210AB33C00D93624 /* PDFConvertersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				535372BD210AB33C00D93624 /* PDFConvertersUITests.m */,
+				535372BF210AB33C00D93624 /* Info.plist */,
+			);
+			path = PDFConvertersUITests;
+			sourceTree = "<group>";
+		};
+		535372CB210AB60200D93624 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				535372CC210AB60200D93624 /* AppDelegate.h */,
+				535372CD210AB60200D93624 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		535372CE210AB60200D93624 /* Expands */ = {
+			isa = PBXGroup;
+			children = (
+				535372CF210AB60200D93624 /* Category */,
+				535372D0210AB60200D93624 /* Macro */,
+			);
+			path = Expands;
+			sourceTree = "<group>";
+		};
+		535372CF210AB60200D93624 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				53537306210B083000D93624 /* NSString+HDUtil.h */,
+				53537307210B083000D93624 /* NSString+HDUtil.m */,
+				53537309210B084000D93624 /* UIColor+HDUtil.h */,
+				5353730A210B084000D93624 /* UIColor+HDUtil.m */,
+				5353730C210B087B00D93624 /* UITextField+HDUtil.h */,
+				5353730D210B087B00D93624 /* UITextField+HDUtil.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		535372D0210AB60200D93624 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				53537302210B055F00D93624 /* PrefixHeader.pch */,
+				53537303210B073200D93624 /* Headers.h */,
+				53537304210B073800D93624 /* Urls.h */,
+				53537305210B073E00D93624 /* Defines.h */,
+				5353731A210B137100D93624 /* Config.h */,
+				53537315210B0C6100D93624 /* HDEnum.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		535372D1210AB60200D93624 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				53537316210B124800D93624 /* HDAlertController.h */,
+				53537317210B124800D93624 /* HDAlertController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		535372D2210AB60200D93624 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				535372D3210AB60200D93624 /* SDKs */,
+				535372D4210AB60200D93624 /* Thirds */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		535372D3210AB60200D93624 /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDKs;
+			sourceTree = "<group>";
+		};
+		535372D4210AB60200D93624 /* Thirds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirds;
+			sourceTree = "<group>";
+		};
+		535372D5210AB60200D93624 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				535372F8210AC27400D93624 /* Files */,
+				535372F7210AC27000D93624 /* Mine */,
+				535372F6210AC26400D93624 /* Convert */,
+				535372F2210AB6D300D93624 /* TabBar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		535372D6210AB60200D93624 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				535372D7210AB60200D93624 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		535372D8210AB60300D93624 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				535372D9210AB60300D93624 /* LaunchScreen.storyboard */,
+				535372DB210AB60300D93624 /* Main.storyboard */,
+				535372DD210AB60300D93624 /* main.m */,
+				535372DE210AB60300D93624 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		535372E5210AB64F00D93624 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				535372E9210AB69800D93624 /* HDBaseViewController.h */,
+				535372EA210AB69800D93624 /* HDBaseViewController.m */,
+				535372EC210AB6BB00D93624 /* HDBaseTableViewController.h */,
+				535372ED210AB6BB00D93624 /* HDBaseTableViewController.m */,
+				535372EF210AB6C700D93624 /* HDBaseTableViewCell.h */,
+				535372F0210AB6C700D93624 /* HDBaseTableViewCell.m */,
+				5353731D210B13F000D93624 /* HDBaseApi.h */,
+				5353731C210B13F000D93624 /* HDBaseApi.m */,
+				5353731B210B13F000D93624 /* HDBaseRequest.h */,
+				5353731E210B13F000D93624 /* HDBaseRequest.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		535372F2210AB6D300D93624 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				535372F3210AB71500D93624 /* HDTabBarViewController.h */,
+				535372F4210AB71500D93624 /* HDTabBarViewController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		535372F6210AC26400D93624 /* Convert */ = {
+			isa = PBXGroup;
+			children = (
+				535372FF210AC2AF00D93624 /* HDConvertViewController.h */,
+				53537300210AC2AF00D93624 /* HDConvertViewController.m */,
+			);
+			path = Convert;
+			sourceTree = "<group>";
+		};
+		535372F7210AC27000D93624 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				535372FC210AC29E00D93624 /* HDMineViewController.h */,
+				535372FD210AC29E00D93624 /* HDMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		535372F8210AC27400D93624 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				535372F9210AC29600D93624 /* HDFilesViewController.h */,
+				535372FA210AC29600D93624 /* HDFilesViewController.m */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		5353730F210B0AD000D93624 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				53537310210B0AEA00D93624 /* HDUserInfo.h */,
+				53537311210B0AEA00D93624 /* HDUserInfo.m */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		EAFF905966156184DF118FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E118FDEA7F2539A900E3EED4 /* libPods-PDFConverters.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53537295210AB33A00D93624 /* PDFConverters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535372C2210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConverters" */;
+			buildPhases = (
+				7D9334E13223B2D3AC176079 /* [CP] Check Pods Manifest.lock */,
+				53537292210AB33A00D93624 /* Sources */,
+				53537293210AB33A00D93624 /* Frameworks */,
+				53537294210AB33A00D93624 /* Resources */,
+				0225299533D682DCED188999 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFConverters;
+			productName = PDFConverters;
+			productReference = 53537296210AB33A00D93624 /* PDFConverters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		535372AD210AB33B00D93624 /* PDFConvertersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535372C5210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConvertersTests" */;
+			buildPhases = (
+				535372AA210AB33B00D93624 /* Sources */,
+				535372AB210AB33B00D93624 /* Frameworks */,
+				535372AC210AB33B00D93624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				535372B0210AB33B00D93624 /* PBXTargetDependency */,
+			);
+			name = PDFConvertersTests;
+			productName = PDFConvertersTests;
+			productReference = 535372AE210AB33B00D93624 /* PDFConvertersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		535372B8210AB33C00D93624 /* PDFConvertersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535372C8210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConvertersUITests" */;
+			buildPhases = (
+				535372B5210AB33C00D93624 /* Sources */,
+				535372B6210AB33C00D93624 /* Frameworks */,
+				535372B7210AB33C00D93624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				535372BB210AB33C00D93624 /* PBXTargetDependency */,
+			);
+			name = PDFConvertersUITests;
+			productName = PDFConvertersUITests;
+			productReference = 535372B9210AB33C00D93624 /* PDFConvertersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5353728E210AB33A00D93624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HD;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "互盾";
+				TargetAttributes = {
+					53537295210AB33A00D93624 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					535372AD210AB33B00D93624 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 53537295210AB33A00D93624;
+					};
+					535372B8210AB33C00D93624 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 53537295210AB33A00D93624;
+					};
+				};
+			};
+			buildConfigurationList = 53537291210AB33A00D93624 /* Build configuration list for PBXProject "PDFConverters" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5353728D210AB33A00D93624;
+			productRefGroup = 53537297210AB33A00D93624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53537295210AB33A00D93624 /* PDFConverters */,
+				535372AD210AB33B00D93624 /* PDFConvertersTests */,
+				535372B8210AB33C00D93624 /* PDFConvertersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53537294210AB33A00D93624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535372E2210AB60300D93624 /* Main.storyboard in Resources */,
+				535372E0210AB60300D93624 /* Assets.xcassets in Resources */,
+				535372E1210AB60300D93624 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372AC210AB33B00D93624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372B7210AB33C00D93624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0225299533D682DCED188999 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PDFConverters/Pods-PDFConverters-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PDFConverters/Pods-PDFConverters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9334E13223B2D3AC176079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFConverters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53537292210AB33A00D93624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53537318210B124800D93624 /* HDAlertController.m in Sources */,
+				535372F5210AB71500D93624 /* HDTabBarViewController.m in Sources */,
+				53537301210AC2AF00D93624 /* HDConvertViewController.m in Sources */,
+				535372EE210AB6BB00D93624 /* HDBaseTableViewController.m in Sources */,
+				5353731F210B13F100D93624 /* HDBaseApi.m in Sources */,
+				5353730E210B087B00D93624 /* UITextField+HDUtil.m in Sources */,
+				535372FB210AC29600D93624 /* HDFilesViewController.m in Sources */,
+				535372E3210AB60300D93624 /* main.m in Sources */,
+				53537312210B0AEA00D93624 /* HDUserInfo.m in Sources */,
+				535372DF210AB60300D93624 /* AppDelegate.m in Sources */,
+				53537320210B13F100D93624 /* HDBaseRequest.m in Sources */,
+				535372FE210AC29E00D93624 /* HDMineViewController.m in Sources */,
+				53537308210B083000D93624 /* NSString+HDUtil.m in Sources */,
+				535372F1210AB6C700D93624 /* HDBaseTableViewCell.m in Sources */,
+				5353730B210B084000D93624 /* UIColor+HDUtil.m in Sources */,
+				535372EB210AB69800D93624 /* HDBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372AA210AB33B00D93624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535372B3210AB33B00D93624 /* PDFConvertersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		535372B5210AB33C00D93624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535372BE210AB33C00D93624 /* PDFConvertersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		535372B0210AB33B00D93624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53537295210AB33A00D93624 /* PDFConverters */;
+			targetProxy = 535372AF210AB33B00D93624 /* PBXContainerItemProxy */;
+		};
+		535372BB210AB33C00D93624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53537295210AB33A00D93624 /* PDFConverters */;
+			targetProxy = 535372BA210AB33C00D93624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		535372D9210AB60300D93624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				535372DA210AB60300D93624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		535372DB210AB60300D93624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				535372DC210AB60300D93624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		535372C0210AB33C00D93624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		535372C1210AB33C00D93624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		535372C3210AB33C00D93624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5767EA2304E0B04968F6237 /* Pods-PDFConverters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7DRCTZEQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDFConverters/Expands/Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = PDFConverters/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdgame.PDFConverters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		535372C4210AB33C00D93624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB4A2B5B0C1722E7F4159DD /* Pods-PDFConverters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8G7DRCTZEQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PDFConverters/Expands/Macro/PrefixHeader.pch";
+				INFOPLIST_FILE = PDFConverters/Others/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdgame.PDFConverters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		535372C6210AB33C00D93624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFConvertersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdgame.PDFConvertersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFConverters.app/PDFConverters";
+			};
+			name = Debug;
+		};
+		535372C7210AB33C00D93624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFConvertersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdgame.PDFConvertersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFConverters.app/PDFConverters";
+			};
+			name = Release;
+		};
+		535372C9210AB33C00D93624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFConvertersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdgame.PDFConvertersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFConverters;
+			};
+			name = Debug;
+		};
+		535372CA210AB33C00D93624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDFConvertersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hdgame.PDFConvertersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFConverters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53537291210AB33A00D93624 /* Build configuration list for PBXProject "PDFConverters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535372C0210AB33C00D93624 /* Debug */,
+				535372C1210AB33C00D93624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535372C2210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConverters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535372C3210AB33C00D93624 /* Debug */,
+				535372C4210AB33C00D93624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535372C5210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConvertersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535372C6210AB33C00D93624 /* Debug */,
+				535372C7210AB33C00D93624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535372C8210AB33C00D93624 /* Build configuration list for PBXNativeTarget "PDFConvertersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				535372C9210AB33C00D93624 /* Debug */,
+				535372CA210AB33C00D93624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5353728E210AB33A00D93624 /* Project object */;
+}

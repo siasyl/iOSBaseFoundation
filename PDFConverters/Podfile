@@ -1,0 +1,14 @@
+target 'PDFConverters' do 
+platform :ios, '10.0' 
+
+inhibit_all_warnings! #忽略引入库的警告⚠️
+
+pod 'Masonry'
+pod 'YTKNetwork' 
+pod 'YYCategories'
+pod 'IQKeyboardManager'
+pod 'YYModel'
+pod 'MBProgressHUD'
+pod 'MJRefresh'
+
+end
